@@ -7,7 +7,7 @@
 		"test": "jest"
 	},
 	"dependencies": {
-        "@youi/react-native-youi": "5.0.11-peloton9",
+		"@youi/react-native-youi": "5.0.0",
 		"react": "16.3.0",
 		"react-native": "0.55.0"
 	},
