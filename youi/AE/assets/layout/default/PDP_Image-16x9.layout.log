@@ -1,0 +1,64 @@
+activecomp {
+  name: "PDP_Image-16x9"
+  width: 1280
+  height: 720
+  defaultcameradistance: 1777.7778
+  layer {
+    name: "ImageNode"
+    id: 65112
+    sourceid: 65095
+    transform {
+      anchorPoint {
+        x: 640
+        y: 360
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 640
+        y: 360
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.8784313725490196
+    green: 0.8784313725490196
+    blue: 0.8784313725490196
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 65095
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.87843137979507446
+    green: 0.87843137979507446
+    blue: 0.87843137979507446
+  }
+  width: 1280
+  height: 720
+  copy_source: false
+}

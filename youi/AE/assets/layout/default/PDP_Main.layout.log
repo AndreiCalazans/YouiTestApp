@@ -1,0 +1,420 @@
+activecomp {
+  name: "PDP_Main"
+  width: 1280
+  height: 720
+  defaultcameradistance: 1777.7778
+  layer {
+    name: "Image-16x9"
+    id: 65080
+    sourceid: 65112
+    transform {
+      anchorPoint {
+        x: 640
+        y: 360
+        z: 0
+      }
+      scale {
+        x: 1.1
+        y: 1.1
+        z: 1
+      }
+      position {
+        x: 640
+        y: 360
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "gradient-bg.png"
+    id: 65081
+    sourceid: 65323
+    transform {
+      anchorPoint {
+        x: 640
+        y: 0.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 720
+        z: 1
+      }
+      position {
+        x: 640
+        y: 360
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0.98
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "asset-shadow.png"
+    id: 65082
+    sourceid: 65325
+    transform {
+      anchorPoint {
+        x: 167.5
+        y: 238
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 167.50003
+        y: 238
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 65083
+  }
+  layer {
+    name: "Image-2x3"
+    id: 65083
+    sourceid: 65099
+    transform {
+      anchorPoint {
+        x: 167.5
+        y: 238
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 418.15887
+        y: 363
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Body-Text"
+    id: 65084
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 303
+        y: 82
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 930.923
+        y: 309.16931
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_LEFT
+      fontSize: 18
+      fontColor {
+        alpha: 1
+        red: 0.16470998525619507
+        green: 0.16470998525619507
+        blue: 0.16470998525619507
+      }
+      fontName: "Gotham-Book"
+      isPointText: false
+      boundsWidth: 406
+      boundsHeight: 264
+      isLabel: true
+      text: ""
+      multiline: true
+      ellipsis: true
+      isAllCaps: false
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "Details-Text"
+    id: 65085
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 303
+        y: 82
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 929.40887
+        y: 264.4003
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_LEFT
+      fontSize: 16
+      fontColor {
+        alpha: 1
+        red: 0.85490000247955322
+        green: 0.10979999601840973
+        blue: 0.36078000068664551
+      }
+      fontName: "Gotham-Book"
+      isPointText: false
+      boundsWidth: 690
+      boundsHeight: 36
+      isLabel: true
+      text: "2017  |  Rated PG  |  134 mins"
+      multiline: true
+      isAllCaps: false
+    }
+  }
+  layer {
+    name: "Title-Text"
+    id: 65086
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 303
+        y: 82
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 928.61981
+        y: 206.58549
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_LEFT
+      fontSize: 32
+      fontColor {
+        alpha: 1
+        red: 0.29020002484321594
+        green: 0.29020002484321594
+        blue: 0.29020002484321594
+      }
+      fontName: "Gotham-Medium"
+      isPointText: false
+      boundsWidth: 716
+      boundsHeight: 82
+      isLabel: true
+      text: ""
+      multiline: true
+      ellipsis: true
+      isAllCaps: false
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+  }
+  layer {
+    name: "controls"
+    id: 65087
+    sourceid: 65185
+    transform {
+      anchorPoint {
+        x: 640
+        y: 50
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 640
+        y: 670
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.8784313725490196
+    green: 0.8784313725490196
+    blue: 0.8784313725490196
+  }
+  childtemplates: "PDP_Image-16x9"
+  childtemplates: "PDP_Image-2x3"
+  childtemplates: "PDP_controls"
+}
+sources {
+  uid: 65112
+  srctype: AE_COMP_SRC
+  name: "PDP_Image-16x9.layout"
+  width: 1280
+  height: 720
+  copy_source: true
+}
+sources {
+  uid: 65323
+  srctype: AE_IMAGE_SRC
+  name: "gradient-bg.png"
+  width: 1280
+  height: 1
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 65325
+  srctype: AE_IMAGE_SRC
+  name: "asset-shadow.png"
+  width: 335
+  height: 476
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 65099
+  srctype: AE_COMP_SRC
+  name: "PDP_Image-2x3.layout"
+  width: 335
+  height: 476
+  copy_source: true
+}
+sources {
+  uid: 5
+  srctype: AE_FONT_SRC
+  name: "Gotham-Book"
+  copy_source: true
+  file_name: "yi_Gotham-Book.otf"
+}
+sources {
+  uid: 6
+  srctype: AE_FONT_SRC
+  name: "Gotham-Medium"
+  copy_source: true
+  file_name: "yi_Gotham-Medium.otf"
+}
+sources {
+  uid: 65185
+  srctype: AE_COMP_SRC
+  name: "PDP_controls.layout"
+  width: 1280
+  height: 100
+  copy_source: true
+}

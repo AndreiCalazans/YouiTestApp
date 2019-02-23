@@ -1,0 +1,17 @@
+activecomp {
+  name: "HelloWorld_ReactNativeView"
+  width: 1280
+  height: 720
+  defaultcameradistance: 1777.7778
+  classname: "CYIReactNativeView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "usesCustomClass"
+    value: "true"
+  }
+}

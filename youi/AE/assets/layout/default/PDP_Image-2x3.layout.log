@@ -1,0 +1,64 @@
+activecomp {
+  name: "PDP_Image-2x3"
+  width: 335
+  height: 476
+  defaultcameradistance: 465.27777
+  layer {
+    name: "ImageNode"
+    id: 65099
+    sourceid: 65097
+    transform {
+      anchorPoint {
+        x: 150
+        y: 225
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 167
+        y: 225
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIImageView"
+  bgcolor {
+    alpha: 1
+    red: 0.8784313725490196
+    green: 0.8784313725490196
+    blue: 0.8784313725490196
+  }
+  properties {
+    key: "componentType"
+    value: "image"
+  }
+}
+sources {
+  uid: 65097
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.64705884456634521
+    green: 0.64705884456634521
+    blue: 0.64705884456634521
+  }
+  width: 300
+  height: 450
+  copy_source: false
+}

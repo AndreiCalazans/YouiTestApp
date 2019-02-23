@@ -1,0 +1,67 @@
+activecomp {
+  name: "HelloWorld_MainComp"
+  width: 1280
+  height: 720
+  defaultcameradistance: 1777.7778
+  layer {
+    name: "ReactNativeView"
+    id: 1
+    sourceid: 360
+    transform {
+      anchorPoint {
+        x: 640
+        y: 360
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 640
+        y: 360
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "width"
+    value: "fit-content"
+  }
+  properties {
+    key: "height"
+    value: "fit-content"
+  }
+  properties {
+    key: "layout"
+    value: "CYIColumnLayout"
+  }
+  childtemplates: "HelloWorld_ReactNativeView"
+}
+sources {
+  uid: 360
+  srctype: AE_COMP_SRC
+  name: "HelloWorld_ReactNativeView.layout"
+  width: 1280
+  height: 720
+  copy_source: true
+}

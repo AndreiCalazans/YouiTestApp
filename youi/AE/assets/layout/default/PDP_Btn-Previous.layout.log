@@ -1,0 +1,168 @@
+activecomp {
+  name: "PDP_Btn-Previous"
+  width: 300
+  height: 100
+  defaultcameradistance: 416.66666
+  layer {
+    name: "btn-bg-shadow.png"
+    id: 65154
+    sourceid: 65208
+    transform {
+      anchorPoint {
+        x: 150
+        y: 40
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 150
+        y: 55
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "btn-bg.png"
+    id: 65155
+    sourceid: 65206
+    transform {
+      anchorPoint {
+        x: 150
+        y: 40
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 150
+        y: 55
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Previous"
+    id: 65156
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: -39
+        y: -14.1
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 110.5644
+        y: 42.711891
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0.5
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 19
+      fontColor {
+        alpha: 1
+        red: 0.50195997953414917
+        green: 0.50195997953414917
+        blue: 0.50195997953414917
+      }
+      fontName: "Gotham-Medium"
+      isPointText: true
+      isLabel: true
+      text: "Previous"
+      multiline: false
+      isAllCaps: false
+    }
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0.8784313725490196
+    green: 0.8784313725490196
+    blue: 0.8784313725490196
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+}
+sources {
+  uid: 65208
+  srctype: AE_IMAGE_SRC
+  name: "btn-bg-shadow.png"
+  width: 300
+  height: 80
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 65206
+  srctype: AE_IMAGE_SRC
+  name: "btn-bg.png"
+  width: 300
+  height: 80
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 3
+  srctype: AE_FONT_SRC
+  name: "Gotham-Medium"
+  copy_source: true
+  file_name: "yi_Gotham-Medium.otf"
+}
